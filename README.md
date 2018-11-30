@@ -7,4 +7,4 @@ Konsolenbefehle:
 
 Aufbau der Schaltung:
 
-![image](http://prntscr.com/lp6h8s)
+http://prntscr.com/lp6htu
