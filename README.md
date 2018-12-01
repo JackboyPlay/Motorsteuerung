@@ -6,7 +6,7 @@ Code, welcher das Steuern eines Motors zulässt.
 
 - mode : Erlaubt es den Modus in einem Bereich von 0 - 2 zu ändern.
 
-| Modus  | outputOne | OutputTwo|
+| Modus  | outputOne | outputTwo|
 | ------ |:---------:| --------:|
 | 0      | LOW       | LOW      |
 | 1      | LOW       | HIGH     |
