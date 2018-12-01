@@ -1,5 +1,5 @@
 # Motorsteuerung
-Mit diesem Code lässt sich ein Motor mithilfe eines Arduinos und einer sogenannten H-Bridge [LC293D] (Nicht Wasserstoffbrücke :wink:) steuern.
+Mit diesem Code lässt sich ein Motor mithilfe eines Arduinos und einer sogenannten H-Bridge [L293D] (Nicht Wasserstoffbrücke :wink:) steuern.
 
 ## Konsolenbefehle:
 - speed: Erlaubt es die Geschwindigkeit in einem Bereich von 0 - 255 zu ändern.
