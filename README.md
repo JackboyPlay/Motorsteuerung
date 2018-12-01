@@ -7,4 +7,4 @@ Konsolenbefehle:
 
 Aufbau der Schaltung:
 
-http://prntscr.com/lp6htu
+![image](https://github.com/JackboyPlay/Motorsteuerung/blob/master/Schaltung.png)
