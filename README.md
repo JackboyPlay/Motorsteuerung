@@ -17,8 +17,8 @@ Mit diesem Code lässt sich ein Motor mithilfe eines Arduinos und einer sogenann
 
 ![image](https://github.com/JackboyPlay/Motorsteuerung/blob/master/Schaltung.png)
 
-Rote Kabel: Liefern eine Spannung beziehungsweise einen Strom.
-Türkise Kabel: Verbunden mit der Masse (Potenzial 0V).
-Lila Kabel: Verbindung zwischen dem Motor und der H-Bridge. (Signalübermittlung)
-Rosa Kabel: Verbindung zwischen dem Arduino und der H-Bridge. (Signalübermittlung)
-Grüne Kabel: Spannung, welche die Geschwindigkeit des Motors vorgibt.
+- Rote Kabel: Liefern eine Spannung beziehungsweise einen Strom.
+- Türkise Kabel: Verbunden mit der Masse (Potenzial 0V).
+- Lila Kabel: Verbindung zwischen dem Motor und der H-Bridge. (Signalübermittlung)
+- Rosa Kabel: Verbindung zwischen dem Arduino und der H-Bridge. (Signalübermittlung)
+- Grüne Kabel: Spannung, welche die Geschwindigkeit des Motors vorgibt.
