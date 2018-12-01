@@ -3,6 +3,7 @@ Mit diesem Code lässt sich ein Motor mithilfe eines Arduinos und einer sogenann
 
 ## Konsolenbefehle:
 - speed: Erlaubt es die Geschwindigkeit in einem Bereich von 0 - 255 zu ändern.
+         Hierbei ist 0 ein Ausschalten des Motors und 255 eine Verdoppelung der Drehgeschwindigkeit, was daran liegt, dass der        Startwert 128 ist.
 
 - mode : Erlaubt es den Modus in einem Bereich von 0 - 2 zu ändern.
 
