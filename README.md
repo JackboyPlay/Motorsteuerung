@@ -1,5 +1,5 @@
 # Motorsteuerung
-Code, welcher das Steuern eines Motors zulässt.
+Mit diesem Code lässt sich ein Motor mithilfe eines Arduinos und einer sogenannten H-Bridge (Nicht Wasserstoffbrücke :wink:) steuern.
 
 ## Konsolenbefehle:
 - speed: Erlaubt es die Geschwindigkeit in einem Bereich von 0 - 255 zu ändern.
