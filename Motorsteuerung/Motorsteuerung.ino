@@ -5,7 +5,7 @@
 */
 
 //PWM-Pins müssen benutzt werden.
-int defaultPin = 11, inputOne = 6, inputTwo = 5;
+int defaultPin = 11, outputOne = 6, outputTwo = 5;
 
 /*
 0 = Anweisung
@@ -18,8 +18,8 @@ int inputmode = 0;
 void setup() {
 	Serial.begin(9600);
 	pinMode(defaultPin, OUTPUT);
-	pinMode(inputOne, OUTPUT);
-	pinMode(inputTwo, OUTPUT);
+	pinMode(outputOne, OUTPUT);
+	pinMode(outputTwo, OUTPUT);
 
 	analogWrite(defaultPin, 128);
 
@@ -65,18 +65,18 @@ void loop() {
 void setMode(int mode) {
 	switch (mode) {
 	case 1:
-		digitalWrite(inputOne, LOW);
-		digitalWrite(inputTwo, HIGH);
+		digitalWrite(outputOne, LOW);
+		digitalWrite(outputTwo, HIGH);
 		break;
 
 	case 2:
-		digitalWrite(inputOne, HIGH);
-		digitalWrite(inputTwo, LOW);
+		digitalWrite(outputOne, HIGH);
+		digitalWrite(outputTwo, LOW);
 		break;
 
 	default:
-		digitalWrite(inputOne, LOW);
-		digitalWrite(inputTwo, LOW);
+		digitalWrite(outputOne, LOW);
+		digitalWrite(outputTwo, LOW);
 	}
 }
 
